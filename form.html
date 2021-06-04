@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+</head>
+<body>
+    <h1>This is a form</h1>
+    <h5>( Please fill it consciously )</h5>
+    <form>
+        <fieldset>
+            <br>
+            <legend >Personal Information</legend>
+       First Name: <input type="text" placeholder="First Name" required><br><br>
+       Last Name: <input type="text" placeholder="Last Name" ><br><br>
+       E-mail : <input type="email" placeholder="Email" required><br><br>
+       Password: <input type="password" placeholder="password" required><br><br>
+       Confirm Password: <input type="password" placeholder="password" required><br><br>
+
+       Gender:
+       
+        <label for="men" > 
+           <input type="radio" id="men" name="gender" value="men" checked> Men
+        </label>
+        <label for="women" > 
+            <input type="radio" id="women" name="gender" value="women"> Women
+         </label>
+         <label for="others" > 
+            <input type="radio" id="others" name="gender" value="others"> Others
+         </label>
+         <br><br>
+
+         Devision:
+          <label for="rangpur" > 
+            <input type="checkbox" id="rangpur" name="devision" value="rangpur">Rangpur
+         </label>
+         <label for="dhaka" > 
+             <input type="checkbox" id="dhaka" name="devision" value="dhaka"> Dhaka
+          </label>
+          <label for="Rajshahi" > 
+             <input type="checkbox" id="rajshahi" name="devision" value="rajshahi">Rajshahi
+          </label>
+          <br><br>
+        </fieldset>
+        <br><br>
+
+        Department: <select name="department" id="dept">
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>EEE</option>
+        </select><br><br>
+        Comment:<textarea name="textarea" id="" cols="20" rows="5"></textarea><br><br>
+
+          <input type="button" value="Submit">
+
+
+    </form>
+    
+</body>
+</html>
